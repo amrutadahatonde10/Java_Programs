@@ -36,7 +36,7 @@
 public class Recursion{
     public static void printSum(int i, int n, int sum){
         if(i == n) {
-            sum += i;
+            sum += i;   
             System.out.println(sum);
             return;
         }
