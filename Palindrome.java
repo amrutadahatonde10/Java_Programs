@@ -23,7 +23,7 @@ class Palindrome {
         System.out.println("Enter Input:");
         String Sid = sc.nextLine();
 
-        Sad obj1 = new Sad();
+        Sad obj1 = new Sad();  
 
         if (obj1.Palin(Sid)) {
             System.out.println("palindrome");
