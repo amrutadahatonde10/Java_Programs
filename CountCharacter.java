@@ -14,7 +14,7 @@ public class CountCharacter{
                 hashMap.replace(ch, count);
             } else {
                 hashMap.put(ch,1);
-            }
+            }  
         }
         for(Character key : hashMap.keySet()) {
             System.out.println(key+" = "+hashMap.get(key));
