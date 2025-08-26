@@ -1,4 +1,4 @@
-
+ 
 import java.util.*;
 
 public class Addition {
@@ -10,4 +10,4 @@ public class Addition {
         System.out.println(sum);
      
     }
-}
+} 
