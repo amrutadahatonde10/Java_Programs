@@ -7,7 +7,7 @@
 
 //         int[][] numbers = new int[rows][cols];
 
-//         //Input
+//         //Input 
 //         //rows
 //         for(int i=0; i<rows; i++) {
 //             //columns
