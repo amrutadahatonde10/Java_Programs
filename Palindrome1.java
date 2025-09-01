@@ -17,7 +17,7 @@ class Palindrome1 {
         }
         return true;
     }
-
+ 
 
 // Main Method
     public static void main(String[] args) {
