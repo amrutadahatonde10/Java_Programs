@@ -9,5 +9,5 @@ public class Addition {
         int sum = a + b;
         System.out.println(sum);
      
-    }
+    } 
 } 
