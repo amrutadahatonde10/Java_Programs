@@ -4,7 +4,7 @@ public class ReverseString{
             System.out.println(str.charAt(idx));
             return;
         }
-        System.out.println(str.charAt(idx));
+        System.out.print(str.charAt(idx));
         printRev(str, idx-1);
     }
 
