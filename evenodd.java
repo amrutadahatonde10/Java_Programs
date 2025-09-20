@@ -25,3 +25,6 @@ public class evenodd {
         System.out.println("smallestodd numbers : "+ smallestodd);
     }
 }
+
+
+// find largest even and smallest odd from given array
