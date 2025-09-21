@@ -42,16 +42,4 @@ public class arrduplicate {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-// Find the duplicate number in an array.
+// Find the duplicate number in an array. 
