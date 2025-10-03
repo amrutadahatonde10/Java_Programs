@@ -1,22 +1,23 @@
 // // Solid Reactangle
-// public class HollowPattern{
-//     public static void main(String[] args) {
-//         int n = 4;
-//         int m = 5;
+public class HollowPattern {
+    public static void main(String[] args) {
+        int m = 5;
+        int n = 5;
 
-//         for(int i=1; i<=n; i++){
-//             for(int j=1; j<=m; j++){
-//                 System.out.print("*");
-//             }
-//             System.out.println();
-//         } 
-//     }  
-// }
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+               System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
 
 // // *****
 // // *****
 // // *****
 // // *****
+
 
 
 
@@ -357,48 +358,48 @@
 
 
 // // Diamond Pattern
-public class HollowPattern{
-    public static void main(String[] args) {
-        int n = 5;
+// public class HollowPattern{
+//     public static void main(String[] args) {
+//         int n = 5;
 
-        // upper half
-        for(int i=1; i<=n; i++){
-            //spaces
-            for(int j=1; j<=n-i; j++){
-                System.out.print(" ");
-            }
+//         // upper half
+//         for(int i=1; i<=n; i++){
+//             //spaces
+//             for(int j=1; j<=n-i; j++){
+//                 System.out.print(" ");
+//             }
 
-            //stars
-            for(int j=1; j<=2*i-1; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+//             //stars
+//             for(int j=1; j<=2*i-1; j++) {
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
 
-        //lower half
-        for(int i=n; i>=1; i--){
-            //spaces
-            for(int j=1; j<=n-i; j++){
-                System.out.print(" ");
-            }
+//         //lower half
+//         for(int i=n; i>=1; i--){
+//             //spaces
+//             for(int j=1; j<=n-i; j++){
+//                 System.out.print(" ");
+//             }
 
-            //stars
-            for(int j=1; j<=2*i-1; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-    }
-}
+//             //stars
+//             for(int j=1; j<=2*i-1; j++) {
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
 
-//     *
-//    ***
-//   *****
-//  *******
-// *********
-// *********
-//  *******
-//   *****
-//    ***
-//     *
+// //     *
+// //    ***
+// //   *****
+// //  *******
+// // *********
+// // *********
+// //  *******
+// //   *****
+// //    ***
+// //     *
 
