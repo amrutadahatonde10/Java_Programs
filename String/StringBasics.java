@@ -5,7 +5,7 @@ class StringBasics {
     public static void main(String[] args) {
         
         // Create and initialize a String variable with extra spaces
-        String text = " Java Programming ";
+        String text = "Java Programming";
 
         // Prints the original string as it is
         System.out.println("Original: " + text);
