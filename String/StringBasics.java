@@ -32,3 +32,4 @@ class StringBasics {
         System.out.println("Replace 'a' with 'o': " + text.replace('a', 'o'));
     }
 }
+ 
