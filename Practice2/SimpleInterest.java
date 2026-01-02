@@ -19,4 +19,4 @@ public class SimpleInterest {
         System.out.println("The simple Interset is: " + SI);
 
     }
-}
+}  
